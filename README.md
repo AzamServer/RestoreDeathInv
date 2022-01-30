@@ -30,7 +30,7 @@ ___
 Patch Notes:
 
 - Version 1.0
-  - 15th January 2021
+  - 30th January 2021
   - Features:
     - Allow plugin to allow players to ask OPs or players with correct perms to restore their death inventory
     - Allow plugin to allow players to restore player's death inventory
