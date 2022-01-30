@@ -1,0 +1,20 @@
+name: RestoreDeathInv
+version: '${project.version}'
+main: com.azamserver.restoredeathinv.Main
+api-version: 1.18
+authors: [ Ali ]
+description: Allows players to ask OPs or players with perms to restore their inventory they had before death
+website: https://card.azamserver.com/
+commands:
+  restoreinv:
+    description: Issuing command will either ask OP to restore your inv, restore a player's inv, or decline to restore a player's inv if the command issuer has correct perms to do so
+    usage: For help, please issue the command "/restoreinv help"
+permissions:
+  restoreinv.*:
+    description: Gives access to /restoreinv command
+    default: op
+    children:
+      restoreinv.ask: true
+      restoreinv.accept: true
+      restoreinv.decline: true
+      restoreinv.helpMenu: true
